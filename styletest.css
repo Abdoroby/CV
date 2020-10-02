@@ -1,0 +1,371 @@
+
+
+
+/*----------------css for mobil-------------*/
+
+*,body,html{
+    margin: 0px; 
+    padding: 0px; 
+    font-family: "Open Sans";
+}
+body{
+    
+    background-color: #14164e;
+    
+}
+
+::-webkit-scrollbar{
+    background-color: #ddd;
+    width: 14px;
+}
+::-webkit-scrollbar-track{
+   background-color: #130f40;
+   
+   
+}
+::-webkit-scrollbar-thumb{
+   background-color: #1416ff;
+   border-radius: 10px;
+   
+
+    
+}
+#Bu1{
+    color: aliceblue;
+    width: 100px; 
+    height: 60px; 
+    background-color:#130f40; 
+    border-style: none;
+    font-size: 15px;
+}
+
+#Bu1:hover{
+    background-color: darkblue;
+   cursor: pointer;
+}
+#Bu2{
+    color: aliceblue;
+    width: 100px; 
+    height: 60px; 
+    background-color:#130f40; 
+    border-style: none;
+    font-size: 15px;
+}
+
+#Bu2:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+
+html{scroll-behavior: smooth;}
+
+#goup{
+    background-image: url('../Imags/Icons/UP.svg'); 
+    width: 50px; 
+    height: 50px; 
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-style: none;
+    background-color: #131360;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity .5s;
+
+}
+
+#goup:hover{cursor: pointer;}
+
+
+
+.menu{
+    box-shadow: 10px 5px 50px #000;
+    width: 99%;
+    height: 60px;
+    color: #fff;
+    background-color: #130f40;
+    padding-left: 10px;
+    z-index: 50;
+}
+
+.menu #logo{
+    float: left;
+    height: 30px; 
+    padding: 5px;
+    padding-right: 50px;
+    line-height: 30px;
+    font-size: 1.3em;
+    }
+    
+.menu > ul{
+    margin: 0;
+    padding: 0px;
+    float: left;
+    list-style-type: none;
+    z-index: 50;
+}
+
+.menu > ul > li{float: left;}
+
+.menu-item{
+    display: inline-block;
+    padding: 15px 20px;
+    line-height: 30px;
+    text-decoration: none;
+    height: 30px;
+    color: #fff;
+    z-index: 50;
+}
+
+.menu-item:hover{
+   /* background-color: #ff0055;*/
+        background-color: darkblue;
+
+}
+
+
+.sub-drop{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 50;
+
+}
+
+.sub-drop ul li a{
+    display: inline-block;
+    padding: 20px 37px;
+    z-index: 50;
+
+}
+
+.sub-drop ul li:hover{
+    /*background-color: #ff0055;*/
+    background-color: darkblue;
+}
+
+
+
+.sub-cont{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+   /* background-color: #333;*/
+    background-color: #130f40;
+    max-height: 0px;
+    z-index: 50;
+}
+
+.sub-cont a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menur{ position: absolute; right:150px;  z-index: 2;}
+
+.menu ul li:hover .sub-cont{max-height: 400px; transition:max-height 0.5s ease-in;}
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+.conweb{
+    font-family: sans-serif;
+    font-size: 80px; 
+    color: aliceblue;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 940px;
+    height: 400px;
+ 
+}
+.cap{font-size: 80px; font-family: sans-serif;}
+.col{color: crimson;}
+b{display: inline-block;}
+
+
+
+
+.skillsTXT{
+    position: relative;
+    opacity: .1;
+    font-size: 160px;
+    color: #eee;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 240px;
+    }
+    .co{font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: #fff; margin: 10px auto; position: absolute; margin-top: 50px;}
+.skillsAE{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(98, 0, 255);
+    margin: -80px auto;
+    margin-top: -80px;
+    width: 850px;
+    height:200px;
+    box-shadow: -1px -1px 70px 15px #000;
+
+}
+.skillsAI{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(151, 67, 10, 0.972);
+    margin: -80px auto;
+    margin-top: 80px;
+    width: 850px;
+    height:200px;
+    box-shadow: -1px -1px 70px 15px #000;
+}
+.skillsPS{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(0, 60, 255, 0.972);
+    margin: -80px auto;
+    margin-top: 80px;
+    width: 850px;
+    height:200px;
+    box-shadow: -1px -1px 70px 15px #000;
+}
+
+.foter{
+    margin-top:0px;
+}
+.v1{
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid midnightblue;
+    width: 700px;
+    height: 500px;
+    }
+    iframe{
+        display: inline-block;
+        margin-top: 100px;
+}
+    
+#count{
+    position: absolute;
+    color: rgb(54, 2, 88);
+    float: left;
+    width: 50%;
+    left: -70px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 52px; 
+    top: -55px; 
+    margin-bottom: 100px;
+}
+#myprog{
+    float: right;
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(54, 2, 88);
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+}
+
+#mybar{
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    position: absolute;
+    position: absolute;
+    width: 0%;
+    height: 30px;
+    background-color: #8702f3;
+    transition: 0.5s ease-out ;
+}
+
+#count1{
+    position: absolute;
+    color: rgb(233, 125, 24);
+    float: left;
+    width: 50%;
+    left: -70px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 52px; 
+    top: -55px; 
+    margin-bottom: 100px;
+}
+#myprog1{
+    float: right;
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(88, 68, 2);
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+}
+
+#mybar1{
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    position: absolute;
+    position: absolute;
+    width: 0%;
+    height: 30px;
+    background-color: #ff9100;
+    transition: 0.5s ease-out ;
+}
+#count2{
+    position: absolute;
+    color: #0287f3;
+    float: left;
+    width: 50%;
+    left: -70px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 52px; 
+    top: -55px; 
+    margin-bottom: 100px;
+}
+#myprog2{
+    float: right;
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(2, 54, 88);
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+}
+
+#mybar2{
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    position: absolute;
+    position: absolute;
+    width: 0%;
+    height: 30px;
+    background-color: #0287f3;
+    transition: 0.5s ease-out ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
